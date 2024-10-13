@@ -1,0 +1,16 @@
+time=2024-10-13T21:07:23.733+02:00 level=INFO msg="connecting to database"
+time=2024-10-13T21:07:23.861+02:00 level=INFO msg="setting up router"
+time=2024-10-13T21:07:23.861+02:00 level=INFO msg="registering routes to handle requests"
+time=2024-10-13T21:07:23.861+02:00 level=INFO msg="Applying middleware: rate limiter"
+time=2024-10-13T21:07:23.861+02:00 level=INFO msg="Starting server on port:8086"
+time=2024-10-13T21:07:50.524+02:00 level=INFO msg="GetQuizzes called"
+time=2024-10-13T21:07:50.524+02:00 level=INFO msg=GetQuizzes "Request Method:"=GET "Request URL:"=/quizzes
+time=2024-10-13T21:07:50.525+02:00 level=INFO msg=GetQuizzes "Fetched quizzes from database:"="[{ID:1 Title:TETRA Trivia! Description:Test your TETRA knowledge. ContentURL:https://confluence.mot-solutions.com  CategoryID:1 CreatorID:1 CreationDate:2024-08-06 00:00:00 +0200 CEST LastModifiedDate:2024-08-06 00:00:00 +0200 CEST TimeLimitInMins:35 Points:0 DifficultyLevel: HintExplanation: QuestionCount:2 IsActive:true} {ID:2 Title:ASTRO Intel Quiz! Description:Test your ASTRO knowledge  ContentURL:https://confluence.mot-solutions.com   CategoryID:1 CreatorID:1 CreationDate:2024-08-06 00:00:00 +0200 CEST LastModifiedDate:2024-08-06 00:00:00 +0200 CEST TimeLimitInMins:35 Points:0 DifficultyLevel: HintExplanation: QuestionCount:2 IsActive:true}]"
+time=2024-10-13T21:07:50.526+02:00 level=INFO msg=GetQuizzes !BADKEY="Response sent successfully"
+time=2024-10-13T21:07:59.166+02:00 level=INFO msg="UpdateQuiz called"
+time=2024-10-13T21:07:59.166+02:00 level=INFO msg=UpdateQuiz "Request Method:"=PUT "Request URL:"="/quizzes/1?id=1"
+time=2024-10-13T21:07:59.166+02:00 level=INFO msg=UpdateQuiz "Updating quiz with ID:"=1
+time=2024-10-13T21:07:59.167+02:00 level=INFO msg=UpdateQuiz "Quiz data to update:"="{ID:1 Title:TETRA Trivia! Description:Test your TETRA knowledge. ContentURL:https://confluence.mot-solutions.com  CategoryID:1 CreatorID:1 CreationDate:2024-10-13 21:07:59.1660096 +0200 CEST LastModifiedDate:2024-10-13 21:07:59.1660096 +0200 CEST TimeLimitInMins:35 Points:0 DifficultyLevel: HintExplanation: QuestionCount:2 IsActive:true}"
+time=2024-10-13T21:07:59.173+02:00 level=INFO msg=UpdateQuiz "Quiz updated successfully:"="{ID:1 Title:TETRA Trivia! Description:Test your TETRA knowledge. ContentURL:https://confluence.mot-solutions.com  CategoryID:1 CreatorID:1 CreationDate:2024-10-13 21:07:59.1660096 +0200 CEST LastModifiedDate:2024-10-13 21:07:59.1660096 +0200 CEST TimeLimitInMins:35 Points:0 DifficultyLevel: HintExplanation: QuestionCount:2 IsActive:true}"
+time=2024-10-13T21:08:59.334+02:00 level=INFO msg="Shutting down server..."
+time=2024-10-13T21:08:59.335+02:00 level=INFO msg="Server exiting"
