@@ -1,0 +1,10 @@
+{
+  "logging_enabled": true,
+  "log_file": "app.log",
+  "OKTA_ISSUER": "https://{yourOktaDomain}/oauth2/default",
+  "OKTA_CLIENT_ID": "yourOktaClientId",
+  "ENABLE_OKTA_AUTH": false,
+  "BACKEND_URL": "http://localhost:8086",
+  "RATE_LIMIT": 100,
+  "MAIN_MP3_TRACK": "sir-karl-jenkins-palladio-motquiz"
+}

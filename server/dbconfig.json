@@ -1,0 +1,10 @@
+{
+  "logging_enabled": true,
+  "log_file": "db.log",
+  "db_type": "mysql",
+  "db_dsn": "root:admin@tcp(localhost:3306)/quiz?charset=utf8mb4&parseTime=True&loc=Local",
+  "okta_issuer": "https://{yourOktaDomain}/oauth2/default",
+  "okta_client_id": "yourOktaClientId",
+  "enable_okta_auth": false,
+  "rate_limit": 100
+}
