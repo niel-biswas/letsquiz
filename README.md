@@ -30,7 +30,7 @@
 
 ## Getting Started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+To make it easy for you to get started with Gihub, here's a list of recommended next steps.
 
 ## Add Your Files
 
@@ -83,11 +83,43 @@ go build
 
 ## Usage
 
-To run the project, use the following command:
-```sh
-sh
-./letsquiz
-```
+To run the `LetsQuiz` application, make sure you start the backend server before launching the application.
+
+### Step 1: Start the Backend Server
+
+The backend server handles all API requests, database interactions, and user management. To start the backend:
+
+1. Navigate to the `server` directory:
+
+    ```bash
+    cd server
+    ```
+
+2. Build and run the backend server:
+
+    ```bash
+    go run main.go
+    ```
+
+   This will start the backend server, which listens for incoming requests from the quiz application.
+
+### Step 2: Start the Application
+
+Once the backend server is up and running, return to the project root directory and start the main quiz application:
+
+1. Navigate back to the root directory:
+
+    ```bash
+    cd ..
+    ```
+
+2. Run the application:
+
+    ```bash
+    go run main.go
+    ```
+
+Now your quiz application will communicate with the backend server to handle user sessions, quizzes, and leaderboards.
 
 ## Contributing
 
