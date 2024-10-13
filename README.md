@@ -11,8 +11,8 @@
                                                    \__/
 ```
 
-![Build Status](https://img.shields.io/gitlab/pipeline/hack.mot-solutions.com/i2i/motquiz)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Build Status](https://img.shields.io/github/actions/workflow/status/niel-biswas/letsquiz/main.yml?branch=main)
+![License](https://img.shields.io/badge/license-GNU%20GPLv3-blue)
 
 ## Description
 
@@ -32,17 +32,35 @@
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-### Add your files
+## Add Your Files
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+To add your files, follow these steps:
 
-```sh
-cd existing_repo
-git remote add origin https://github.com/niel-biswas/letsquiz.git
-git branch -M master
-git push -uf origin master
-```
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/niel-biswas/letsquiz.git
+   ```
+
+2. Change into the repository directory:
+
+   ```bash
+   cd letsquiz
+   ```
+
+3. Add your files and commit the changes:
+
+   ```bash
+   git add .
+   git commit -m "Added my quiz files"
+   ```
+
+4. Push your changes to GitHub:
+
+   ```bash
+   git push origin main
+   ```
+
 ## Installation
 
 To install the project, follow these steps:
